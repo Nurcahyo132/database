@@ -1,332 +1,647 @@
 {
-    "categories":[
-        {
-            "id": 1,
-            "nama": "Makanan"
-        },
-        {
-            "id": 2,
-            "nama": "Minuman"
-        },
-        {
-            "id": 3,
-            "nama": "Cemilan"
+  "categories": [
+    {
+      "id": 1,
+      "nama": "Makanan"
+    },
+    {
+      "id": 2,
+      "nama": "Minuman"
+    },
+    {
+      "id": 3,
+      "nama": "Cemilan"
+    }
+  ],
+  "Produk": [
+    {
+      "id": 1,
+      "kode": "K-01",
+      "nama": "Bakso Aci",
+      "harga": 13000,
+      "is_ready": true,
+      "gambar": "https://id-test-11.slatic.net/shop/7f6f2997182b91dbfb0221f9eaeb2365.jpeg",
+      "category": {
+        "id": 1,
+        "nama": "Makanan"
+      }
+    },
+    {
+      "id": 2,
+      "kode": "K-02",
+      "nama": "Bakso",
+      "harga": 13000,
+      "is_ready": true,
+      "gambar": "Bakso.jpg",
+      "category": {
+        "id": 1,
+        "nama": "Makanan"
+      }
+    },
+    {
+      "id": 3,
+      "kode": "K-03",
+      "nama": "Gado-gado",
+      "harga": 13000,
+      "is_ready": true,
+      "gambar": "Gado-gado.jpg",
+      "category": {
+        "id": 1,
+        "nama": "Makanan"
+      }
+    },
+    {
+      "id": 4,
+      "kode": "K-04",
+      "nama": "Ketoprak",
+      "harga": 13000,
+      "is_ready": true,
+      "gambar": "Ketoprak.jpg",
+      "category": {
+        "id": 1,
+        "nama": "Makanan"
+      }
+    },
+    {
+      "id": 5,
+      "kode": "K-05",
+      "nama": "Lontong Sayur",
+      "harga": 13000,
+      "is_ready": true,
+      "gambar": "Lontong Sayur.jpg",
+      "category": {
+        "id": 1,
+        "nama": "Makanan"
+      }
+    },
+    {
+      "id": 6,
+      "kode": "K-06",
+      "nama": "Mie Goreng",
+      "harga": 11000,
+      "is_ready": true,
+      "gambar": "Mie Goreng.jpg",
+      "category": {
+        "id": 1,
+        "nama": "Makanan"
+      }
+    },
+    {
+      "id": 7,
+      "kode": "K-07",
+      "nama": "Nasi Goreng",
+      "harga": 11000,
+      "is_ready": true,
+      "gambar": "Nasi Goreng.jpg",
+      "category": {
+        "id": 1,
+        "nama": "Makanan"
+      }
+    },
+    {
+      "id": 8,
+      "kode": "K-08",
+      "nama": "Sate Kambing",
+      "harga": 15000,
+      "is_ready": true,
+      "gambar": "Sate Kambing.jpg",
+      "category": {
+        "id": 1,
+        "nama": "Makanan"
+      }
+    },
+    {
+      "id": 9,
+      "kode": "K-09",
+      "nama": "Sate Padang",
+      "harga": 12000,
+      "is_ready": true,
+      "gambar": "Sate Padang.jpeg",
+      "category": {
+        "id": 1,
+        "nama": "Makanan"
+      }
+    },
+    {
+      "id": 10,
+      "kode": "K-010",
+      "nama": "Soto Ayam",
+      "harga": 12000,
+      "is_ready": true,
+      "gambar": "SotoAyam.jpg",
+      "category": {
+        "id": 1,
+        "nama": "Makanan"
+      }
+    },
+    {
+      "id": 11,
+      "kode": "K-011",
+      "nama": "Jamur Cripsy",
+      "harga": 5000,
+      "is_ready": true,
+      "gambar": "Jamur Cripsy.jpg",
+      "category": {
+        "id": 3,
+        "nama": "Cemilan"
+      }
+    },
+    {
+      "id": 12,
+      "kode": "K-012",
+      "nama": "Kentang Goreng",
+      "harga": 5000,
+      "is_ready": true,
+      "gambar": "Kentang Goreng.jpg",
+      "category": {
+        "id": 3,
+        "nama": "Cemilan"
+      }
+    },
+    {
+      "id": 13,
+      "kode": "K-013",
+      "nama": "Otak-otak Bakar",
+      "harga": 5000,
+      "is_ready": true,
+      "gambar": "otak-otak bakar.jpg",
+      "category": {
+        "id": 3,
+        "nama": "Cemilan"
+      }
+    },
+    {
+      "id": 14,
+      "kode": "K-014",
+      "nama": "Otak-otak goreng",
+      "harga": 5000,
+      "is_ready": true,
+      "gambar": "Otak-otak goreng.jpg",
+      "category": {
+        "id": 3,
+        "nama": "Cemilan"
+      }
+    },
+    {
+      "id": 15,
+      "kode": "K-015",
+      "nama": "Pancake",
+      "harga": 12000,
+      "is_ready": true,
+      "gambar": "Pancake.jpg",
+      "category": {
+        "id": 3,
+        "nama": "Cemilan"
+      }
+    },
+    {
+      "id": 16,
+      "kode": "K-016",
+      "nama": "Roti Bakar",
+      "harga": 10000,
+      "is_ready": true,
+      "gambar": "Roti Bakar.jpg",
+      "category": {
+        "id": 3,
+        "nama": "Cemilan"
+      }
+    },
+    {
+      "id": 17,
+      "kode": "K-017",
+      "nama": "Air Mineral",
+      "harga": 5000,
+      "is_ready": true,
+      "gambar": "Air Mineral.jpg",
+      "category": {
+        "id": 2,
+        "nama": "Minuman"
+      }
+    },
+    {
+      "id": 18,
+      "kode": "K-018",
+      "nama": "Es Cappucino",
+      "harga": 11000,
+      "is_ready": true,
+      "gambar": "Es Cappucino.jpg",
+      "category": {
+        "id": 2,
+        "nama": "Minuman"
+      }
+    },
+    {
+      "id": 19,
+      "kode": "K-019",
+      "nama": "Es Coklat Jelly",
+      "harga": 13000,
+      "is_ready": true,
+      "gambar": "Es Coklat Jely.jpg",
+      "category": {
+        "id": 2,
+        "nama": "Minuman"
+      }
+    },
+    {
+      "id": 20,
+      "kode": "K-020",
+      "nama": "Es Jeruk",
+      "harga": 12000,
+      "is_ready": true,
+      "gambar": "Es Jeruk.jpg",
+      "category": {
+        "id": 2,
+        "nama": "Minuman"
+      }
+    },
+    {
+      "id": 21,
+      "kode": "K-021",
+      "nama": "Es Kelapa Muda",
+      "harga": 12000,
+      "is_ready": true,
+      "gambar": "Es Kelapa Muda.jpg",
+      "category": {
+        "id": 2,
+        "nama": "Minuman"
+      }
+    },
+    {
+      "id": 22,
+      "kode": "K-022",
+      "nama": "Es Susu Soda",
+      "harga": 12000,
+      "is_ready": true,
+      "gambar": "Es Susu Soda.jpg",
+      "category": {
+        "id": 2,
+        "nama": "Minuman"
+      }
+    },
+    {
+      "id": 23,
+      "kode": "K-023",
+      "nama": "Es Teh Manis",
+      "harga": 12000,
+      "is_ready": true,
+      "gambar": "Es Teh Manis.jpg",
+      "category": {
+        "id": 2,
+        "nama": "Minuman"
+      }
+    },
+    {
+      "id": 24,
+      "kode": "K-024",
+      "nama": "Jahe Lemon",
+      "harga": 12000,
+      "is_ready": true,
+      "gambar": "Jahe Lemon.jpg",
+      "category": {
+        "id": 2,
+        "nama": "Minuman"
+      }
+    },
+    {
+      "id": 25,
+      "kode": "K-025",
+      "nama": "Kopi",
+      "harga": 12000,
+      "is_ready": true,
+      "gambar": "Kopi.jpg",
+      "category": {
+        "id": 2,
+        "nama": "Minuman"
+      }
+    },
+    {
+      "id": 26,
+      "kode": "K-026",
+      "nama": "Lemon Tea",
+      "harga": 12000,
+      "is_ready": true,
+      "gambar": "Lemon Tea.jpg",
+      "category": {
+        "id": 2,
+        "nama": "Minuman"
+      }
+    }
+  ],
+  "Keranjang": [
+    {
+      "jumlah": 1,
+      "total_harga": 13000,
+      "Produk": {
+        "id": 5,
+        "kode": "K-05",
+        "nama": "Lontong Sayur",
+        "harga": 13000,
+        "is_ready": true,
+        "gambar": "Lontong Sayur.jpg",
+        "category": {
+          "id": 1,
+          "nama": "Makanan"
         }
-    ],
-    "Produk":[
+      },
+      "id": 5
+    },
+    {
+      "jumlah": 2,
+      "total_harga": 26000,
+      "Produk": {
+        "id": 4,
+        "kode": "K-04",
+        "nama": "Ketoprak",
+        "harga": 13000,
+        "is_ready": true,
+        "gambar": "Ketoprak.jpg",
+        "category": {
+          "id": 1,
+          "nama": "Makanan"
+        }
+      },
+      "id": 6
+    },
+    {
+      "jumlah": 2,
+      "total_harga": 30000,
+      "Produk": {
+        "id": 8,
+        "kode": "K-08",
+        "nama": "Sate Kambing",
+        "harga": 15000,
+        "is_ready": true,
+        "gambar": "Sate Kambing.jpg",
+        "category": {
+          "id": 1,
+          "nama": "Makanan"
+        }
+      },
+      "id": 7
+    },
+    {
+      "jumlah": 2,
+      "total_harga": 24000,
+      "Produk": {
+        "id": 9,
+        "kode": "K-09",
+        "nama": "Sate Padang",
+        "harga": 12000,
+        "is_ready": true,
+        "gambar": "Sate Padang.jpeg",
+        "category": {
+          "id": 1,
+          "nama": "Makanan"
+        }
+      },
+      "id": 8
+    },
+    {
+      "jumlah": 1,
+      "total_harga": 11000,
+      "Produk": {
+        "id": 6,
+        "kode": "K-06",
+        "nama": "Mie Goreng",
+        "harga": 11000,
+        "is_ready": true,
+        "gambar": "Mie Goreng.jpg",
+        "category": {
+          "id": 1,
+          "nama": "Makanan"
+        }
+      },
+      "id": 9
+    },
+    {
+      "jumlah": 1,
+      "total_harga": 5000,
+      "Produk": {
+        "id": 14,
+        "kode": "K-014",
+        "nama": "Otak-otak goreng",
+        "harga": 5000,
+        "is_ready": true,
+        "gambar": "Otak-otak goreng.jpg",
+        "category": {
+          "id": 3,
+          "nama": "Cemilan"
+        }
+      },
+      "id": 10
+    },
+    {
+      "jumlah": 1,
+      "total_harga": 12000,
+      "Produk": {
+        "id": 15,
+        "kode": "K-015",
+        "nama": "Pancake",
+        "harga": 12000,
+        "is_ready": true,
+        "gambar": "Pancake.jpg",
+        "category": {
+          "id": 3,
+          "nama": "Cemilan"
+        }
+      },
+      "id": 11
+    }
+  ],
+  "pesanan": [
+    {
+      "total_bayar": 26000,
+      "menu": [
         {
+          "jumlah": 1,
+          "total_harga": 13000,
+          "Produk": {
             "id": 1,
             "kode": "K-01",
             "nama": "Bakso Aci",
             "harga": 13000,
             "is_ready": true,
-            "gambar": "https://drive.google.com/file/d/11iNNmcd4K9owXTqlXN6D8vGXuxJMwUFs/view?usp=sharing",
+            "gambar": "Bakso Aci.jpg",
             "category": {
-                "id": 1,
-                "nama":"Makanan"
+              "id": 1,
+              "nama": "Makanan"
             }
+          },
+          "id": 1
         },
         {
-            "id": 2,
-            "kode": "K-02",
-            "nama": "Bakso",
-            "harga": 13000,
-            "is_ready": true,
-            "gambar": "https://drive.google.com/file/d/1-kviorlV7Zx_3kcIdwQxoRl43fy0sXFA/view?usp=sharing",
-            "category": {
-                "id": 1,
-                "nama":"Makanan"
-            }
-        },
-        {
-            "id": 3,
-            "kode": "K-03",
-            "nama": "Gado-gado",
-            "harga": 13000,
-            "is_ready": true,
-            "gambar": "https://drive.google.com/file/d/1HV5NilGoZSJQV6LHindrwJI3eHhE1gp9/view?usp=sharing",
-            "category": {
-                "id": 1,
-                "nama":"Makanan"
-            }
-        },
-        {
-            "id": 4,
-            "kode": "K-04",
-            "nama": "Ketoprak",
-            "harga": 13000,
-            "is_ready": true,
-            "gambar": "https://drive.google.com/file/d/1S4JPyace0APRHAGxXj4iAFdEZyfxrAFj/view?usp=sharing",
-            "category": {
-                "id": 1,
-                "nama":"Makanan"
-            }
-        },
-        {
+          "jumlah": 1,
+          "total_harga": 13000,
+          "Produk": {
             "id": 5,
             "kode": "K-05",
             "nama": "Lontong Sayur",
             "harga": 13000,
             "is_ready": true,
-            "gambar": "https://drive.google.com/file/d/18Mrl-Hd2OKBLV-DLz1oU1LOxn37XlpY5/view?usp=sharing",
+            "gambar": "Lontong Sayur.jpg",
             "category": {
-                "id": 1,
-                "nama":"Makanan"
+              "id": 1,
+              "nama": "Makanan"
             }
-        },
+          },
+          "id": 2
+        }
+      ],
+      "id": 1
+    },
+    {
+      "total_bayar": 26000,
+      "menu": [
         {
-            "id": 6,
-            "kode": "K-06",
-            "nama": "Mie Goreng",
-            "harga": 11000,
-            "is_ready": true,
-            "gambar": "https://drive.google.com/file/d/155D_BgSBjvkYTg4amz3zx_5M7wNBRS37/view?usp=sharing",
-            "category": {
-                "id": 1,
-                "nama":"Makanan"
-            }
-        },
-        {
-            "id": 7,
-            "kode": "K-07",
-            "nama": "Nasi Goreng",
-            "harga": 11000,
-            "is_ready": true,
-            "gambar": "https://drive.google.com/file/d/1GEJzmo_n7lI0xwOpL4jFgFeE3oRNd6k1/view?usp=sharing",
-            "category": {
-                "id": 1,
-                "nama":"Makanan"
-            }
-        },
-        {
-            "id": 8,
-            "kode": "K-08",
-            "nama": "Sate Kambing",
-            "harga": 15000,
-            "is_ready": true,
-            "gambar": "https://drive.google.com/file/d/13RfMqF6xkKK5vxzL-nJIPA9EjaJAwBCT/view?usp=sharing",
-            "category": {
-                "id": 1,
-                "nama":"Makanan"
-            }
-        },
-        {
-            "id": 9,
-            "kode": "K-09",
-            "nama": "Sate Padang",
-            "harga": 12000,
-            "is_ready": true,
-            "gambar": "https://drive.google.com/file/d/1IUIKrKo8kcne37TXh25sQH-63u_a2Exn/view?usp=sharing",
-            "category": {
-                "id": 1,
-                "nama":"Makanan"
-            }
-        },
-        {
-            "id": 10,
-            "kode": "K-010",
-            "nama": "Soto Ayam",
-            "harga": 12000,
-            "is_ready": true,
-            "gambar": "https://drive.google.com/file/d/1xmRMVwhNe26X66jDlYVmDAuv1toFOnxo/view?usp=sharing",
-            "category": {
-                "id": 1,
-                "nama":"Makanan"
-            }
-        },
-        {
-            "id": 11,
-            "kode": "K-011",
-            "nama": "Jamur Cripsy",
-            "harga": 5000,
-            "is_ready": true,
-            "gambar": "https://drive.google.com/file/d/1N4ReQpWSy6rDWnjJYveuf-7IMIlyLKYQ/view?usp=sharing",
-            "category": {
-                "id": 3,
-                "nama":"Cemilan"
-            }
-        },
-        {
-            "id": 12,
-            "kode": "K-012",
-            "nama": "Kentang Goreng",
-            "harga": 5000,
-            "is_ready": true,
-            "gambar": "https://drive.google.com/file/d/1poQYYg8bPGWUmEr1QLNr1-lUQtCtxD4l/view?usp=sharing",
-            "category": {
-                "id": 3,
-                "nama":"Cemilan"
-            }
-        },
-        {
-            "id": 13,
-            "kode": "K-013",
-            "nama": "Otak-otak Bakar",
-            "harga": 5000,
-            "is_ready": true,
-            "gambar": "https://drive.google.com/file/d/1uPKWKOwP-5h_0eIXD48ynBL-BtXBnzCF/view?usp=sharing",
-            "category": {
-                "id": 3,
-                "nama":"Cemilan"
-            }
-        },
-        {
-            "id": 14,
-            "kode": "K-014",
-            "nama": "Otak-otak goreng",
-            "harga": 5000,
-            "is_ready": true,
-            "gambar": "https://drive.google.com/file/d/1kP7UJkDaJ1PeROeHncNG2LtBMoxr_A8J/view?usp=sharing",
-            "category": {
-                "id": 3,
-                "nama":"Cemilan"
-            }
-        },
-        {
-            "id": 15,
-            "kode": "K-015",
-            "nama": "Pancake",
-            "harga": 12000,
-            "is_ready": true,
-            "gambar": "https://drive.google.com/file/d/1bncgE-V-9bI5ih4l9VZvgTtU0lYyBoIb/view?usp=sharing",
-            "category": {
-                "id": 3,
-                "nama":"Cemilan"
-            }
-        },
-        {
-            "id": 16,
-            "kode": "K-016",
-            "nama": "Roti Bakar",
-            "harga": 10000,
-            "is_ready": true,
-            "gambar": "https://drive.google.com/file/d/1JVf1EX-Wf3ixT1ZsfjlLf4h5Ipy2Ev58/view?usp=sharing",
-            "category": {
-                "id": 3,
-                "nama":"Cemilan"
-            }
-        },
-        {
-            "id": 17,
-            "kode": "K-017",
-            "nama": "Air Mineral",
-            "harga": 5000,
-            "is_ready": true,
-            "gambar": "https://drive.google.com/file/d/1HaAIEXewTCZaGNDtmNvOysCOg_ChpRRF/view?usp=sharing",
-            "category": {
-                "id": 2,
-                "nama":"Minuman"
-            }
-        },
-        {
-            "id": 18,
-            "kode": "K-018",
-            "nama": "Es Cappucino",
-            "harga": 11000,
-            "is_ready": true,
-            "gambar": "https://drive.google.com/file/d/1vfofjwkEdrrRsNxR1UeGZvyaOK8gc_FY/view?usp=sharing",
-            "category": {
-                "id": 2,
-                "nama":"Minuman"
-            }
-        },
-        {
-            "id": 19,
-            "kode": "K-019",
-            "nama": "Es Coklat Jelly",
+          "jumlah": 1,
+          "total_harga": 13000,
+          "Produk": {
+            "id": 1,
+            "kode": "K-01",
+            "nama": "Bakso Aci",
             "harga": 13000,
             "is_ready": true,
-            "gambar": "https://drive.google.com/file/d/1OQxAUPEIEX_hb2zKKoji_ropzrwJ8nr8/view?usp=sharing",
+            "gambar": "Bakso Aci.jpg",
             "category": {
-                "id": 2,
-                "nama":"Minuman"
+              "id": 1,
+              "nama": "Makanan"
             }
+          },
+          "id": 1
         },
         {
-            "id": 20,
-            "kode": "K-020",
-            "nama": "Es Jeruk",
-            "harga": 12000,
+          "jumlah": 1,
+          "total_harga": 13000,
+          "Produk": {
+            "id": 5,
+            "kode": "K-05",
+            "nama": "Lontong Sayur",
+            "harga": 13000,
             "is_ready": true,
-            "gambar": "https://drive.google.com/file/d/18a6EICX_3g9GX3zeWECFzEfKiUncmYy7/view?usp=sharing",
+            "gambar": "Lontong Sayur.jpg",
             "category": {
-                "id": 2,
-                "nama":"Minuman"
+              "id": 1,
+              "nama": "Makanan"
             }
-        },
-        {
-            "id": 21,
-            "kode": "K-021",
-            "nama": "Es Kelapa Muda",
-            "harga": 12000,
-            "is_ready": true,
-            "gambar": "https://drive.google.com/file/d/1na8supSXDhCMLTNfKsdVcLyzuecqgg8C/view?usp=sharing",
-            "category": {
-                "id": 2,
-                "nama":"Minuman"
-            }
-        },
-        {
-            "id": 22,
-            "kode": "K-022",
-            "nama": "Es Susu Soda",
-            "harga": 12000,
-            "is_ready": true,
-            "gambar": "https://drive.google.com/file/d/1mf0c_7yL8hCN-eVEXwbMwQpNQQ16KdWR/view?usp=sharing",
-            "category": {
-                "id": 2,
-                "nama":"Minuman"
-            }
-        },
-        {
-            "id": 23,
-            "kode": "K-023",
-            "nama": "Es Teh Manis",
-            "harga": 12000,
-            "is_ready": true,
-            "gambar": "https://drive.google.com/file/d/1bw0IaYjp_ogdpYzDIbzQpFss8WIL1ufJ/view?usp=sharing",
-            "category": {
-                "id": 2,
-                "nama":"Minuman"
-            }
-        },
-        {
-            "id": 24,
-            "kode": "K-024",
-            "nama": "Jahe Lemon",
-            "harga": 12000,
-            "is_ready": true,
-            "gambar": "https://drive.google.com/file/d/10qElKao8nwrX-56rW9EqQcHVH7YS5gsS/view?usp=sharing",
-            "category": {
-                "id": 2,
-                "nama":"Minuman"
-            }
-        },
-        {
-            "id": 25,
-            "kode": "K-025",
-            "nama": "Kopi",
-            "harga": 12000,
-            "is_ready": true,
-            "gambar": "https://drive.google.com/file/d/1AxuBuvBpKeiQDIeTeK9jDL9cZEVAYHst/view?usp=sharing",
-            "category": {
-                "id": 2,
-                "nama":"Minuman"
-            }
-        },
-        {
-            "id": 26,
-            "kode": "K-026",
-            "nama": "Lemon Tea",
-            "harga": 12000,
-            "is_ready": true,
-            "gambar": "https://drive.google.com/file/d/18HjJALo7KZFemREnW826iF30NN_VR_Q4/view?usp=sharing",
-            "category": {
-                "id": 2,
-                "nama":"Minuman"
-            }
+          },
+          "id": 2
         }
-    ],
-    "Keranjang": [],
-    "pesanan": []
+      ],
+      "id": 2
+    },
+    {
+      "total_bayar": 39000,
+      "menu": [
+        {
+          "jumlah": 1,
+          "total_harga": 13000,
+          "Produk": {
+            "id": 1,
+            "kode": "K-01",
+            "nama": "Bakso Aci",
+            "harga": 13000,
+            "is_ready": true,
+            "gambar": "Bakso Aci.jpg",
+            "category": {
+              "id": 1,
+              "nama": "Makanan"
+            }
+          },
+          "id": 1
+        },
+        {
+          "jumlah": 1,
+          "total_harga": 13000,
+          "Produk": {
+            "id": 2,
+            "kode": "K-02",
+            "nama": "Bakso",
+            "harga": 13000,
+            "is_ready": true,
+            "gambar": "Bakso.jpg",
+            "category": {
+              "id": 1,
+              "nama": "Makanan"
+            }
+          },
+          "id": 2
+        },
+        {
+          "jumlah": 1,
+          "total_harga": 13000,
+          "Produk": {
+            "id": 3,
+            "kode": "K-03",
+            "nama": "Gado-gado",
+            "harga": 13000,
+            "is_ready": true,
+            "gambar": "Gado-gado.jpg",
+            "category": {
+              "id": 1,
+              "nama": "Makanan"
+            }
+          },
+          "id": 3
+        }
+      ],
+      "id": 3
+    },
+    {
+      "total_bayar": 39000,
+      "menu": [
+        {
+          "jumlah": 1,
+          "total_harga": 13000,
+          "Produk": {
+            "id": 1,
+            "kode": "K-01",
+            "nama": "Bakso Aci",
+            "harga": 13000,
+            "is_ready": true,
+            "gambar": "Bakso Aci.jpg",
+            "category": {
+              "id": 1,
+              "nama": "Makanan"
+            }
+          },
+          "id": 1
+        },
+        {
+          "jumlah": 1,
+          "total_harga": 13000,
+          "Produk": {
+            "id": 2,
+            "kode": "K-02",
+            "nama": "Bakso",
+            "harga": 13000,
+            "is_ready": true,
+            "gambar": "Bakso.jpg",
+            "category": {
+              "id": 1,
+              "nama": "Makanan"
+            }
+          },
+          "id": 2
+        },
+        {
+          "jumlah": 1,
+          "total_harga": 13000,
+          "Produk": {
+            "id": 3,
+            "kode": "K-03",
+            "nama": "Gado-gado",
+            "harga": 13000,
+            "is_ready": true,
+            "gambar": "Gado-gado.jpg",
+            "category": {
+              "id": 1,
+              "nama": "Makanan"
+            }
+          },
+          "id": 3
+        }
+      ],
+      "id": 4
+    }
+  ]
 }
